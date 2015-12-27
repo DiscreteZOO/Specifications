@@ -1,0 +1,22 @@
+{
+    "name": "graph_cvt",
+    "primary_key": "zooid",
+    "indices": ["cvt_index"],
+    "skip": ["zooid"],
+    "fields" : {
+        "cvt_index": "Integer",
+        "is_moebius_ladder": "bool",
+        "is_prism": "bool",
+        "is_spx": "bool",
+        "zooid": "ZooGraph"
+    },
+    "compute": {},
+    "default": {
+        "ZooGraph": {
+            "average_degree": 3,
+            "is_regular": true,
+            "is_tree": false,
+            "is_vertex_transitive": true
+        }
+    }
+}

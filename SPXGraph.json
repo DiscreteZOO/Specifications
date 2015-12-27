@@ -1,0 +1,20 @@
+{
+    "name": "graph_spx",
+    "primary_key": "zooid",
+    "indices": [[["spx_r", "spx_s"], ["unique"]]],
+    "skip": ["zooid"],
+    "fields" : {
+        "spx_r": "Integer",
+        "spx_s": "Integer",
+        "zooid": "ZooGraph"
+    },
+    "compute": {},
+    "default": {
+        "ZooGraph": {
+            "average_degree": 3,
+            "is_bipartite": true,
+            "is_regular": true,
+            "is_tree": false
+        }
+    }
+}

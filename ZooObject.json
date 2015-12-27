@@ -1,0 +1,15 @@
+{
+    "name": "object",
+    "primary_key": "zooid",
+    "indices": [],
+    "skip": ["unique_id", "zooid"],
+    "fields" : {
+        "alias": [["ZooSet", {
+                    "alias": ["str", ["not_null"]]
+                   }], []],
+        "unique_id": ["str", ["unique"]],
+        "zooid": "ZooEntity"
+    },
+    "compute": {},
+    "default": {}
+}

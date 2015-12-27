@@ -1,0 +1,11 @@
+{
+    "name": "entity",
+    "primary_key": "zooid",
+    "indices": [],
+    "skip": ["zooid"],
+    "fields" : {
+        "zooid": ["Integer", ["autoincrement"]]
+    },
+    "compute": {},
+    "default": {}
+}

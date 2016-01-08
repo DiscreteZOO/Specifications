@@ -1,2 +1,2 @@
-# GraphZOO-spec
-Specifications for GraphZOO objects
+# DiscreteZOO-spec
+Specifications for DiscreteZOO objects

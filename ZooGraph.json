@@ -13,7 +13,6 @@
         "clustering_average": "Rational",
         "connected_components_number": "Integer",
         "data": ["str", ["not_null"]],
-        "density": "Rational",
         "diameter": "Integer",
         "edge_connectivity": "Integer",
         "fractional_chromatic_index": "Integer",

@@ -3,7 +3,7 @@
     "primary_key": "zooid",
     "indices": ["order", "average_degree"],
     "skip": ["data", "zooid"],
-    "fields" : {
+    "fields": {
         "average_degree": "Rational",
         "average_distance": "Rational",
         "chromatic_index": "Integer",
@@ -12,7 +12,7 @@
         "cluster_transitivity": "Rational",
         "clustering_average": "Rational",
         "connected_components_number": "Integer",
-        "data": ["str", ["not_null"]],
+        "data": "str",
         "diameter": "Integer",
         "edge_connectivity": "Integer",
         "fractional_chromatic_index": "Integer",
@@ -50,7 +50,7 @@
         "is_vertex_transitive": "bool",
         "lovasz_theta": "RealNumber",
         "maximum_average_degree": "Rational",
-        "name": ["str", ["unique"]],
+        "name": "str",
         "number_of_loops": "Integer",
         "odd_girth": "Integer",
         "order": "Integer",
@@ -65,6 +65,10 @@
         "zagreb1_index": "Integer",
         "zagreb2_index": "Integer",
         "zooid": "ZooObject"
+    },
+    "fieldparams": {
+        "data": ["not_null"],
+        "name": ["unique"]
     },
     "compute": {"ZooGraph": ["diameter", "girth", "has_multiple_edges",
                              "name", "number_of_loops", "order", "size"]},

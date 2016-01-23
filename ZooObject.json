@@ -3,34 +3,36 @@
     "primary_key": "zooid",
     "indices": [],
     "skip": ["zooid"],
-    "fields" : {
+    "fields": {
         "alias": [
-            [
-                "ZooSet",
-                {
-                    "fields": {
-                        "alias": ["str", ["not_null"]]
-                    }
+            "ZooSet",
+            {
+                "fields": {
+                    "alias": "str"
                 }
-            ],
-            []
+            },
+            {
+                "alias": ["not_null"]
+            }
         ],
         "unique_id": [
-            [
-                "ZooDict",
-                {
-                    "keys": {
-                        "algorithm": ["str", ["not_null"]]
-                    },
-                    "values": {
-                        "unique_id": ["str", ["not_null"]]
-                    }
+            "ZooDict",
+            {
+                "keys": {
+                    "algorithm": "str"
+                },
+                "values": {
+                    "unique_id": "str"
                 }
-            ],
-            []
+            },
+            {
+                "algorithm": ["not_null"],
+                "unique_id": ["not_null"]
+            }
         ],
         "zooid": "ZooEntity"
     },
+    "fieldparams": {},
     "compute": {},
     "default": {}
 }

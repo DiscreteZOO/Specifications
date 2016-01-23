@@ -3,13 +3,20 @@
     "primary_key": "change_id",
     "indices": [[["zooid", "table", "column", "commit"], ["unique"]]],
     "skip": ["change_id", "zooid"],
-    "fields" : {
-        "change_id": ["Integer", ["autoincrement"]],
-        "column": ["str", ["not_null"]],
-        "commit": ["str", ["not_null"]],
-        "table": ["str", ["not_null"]],
+    "fields": {
+        "change_id": "Integer",
+        "column": "str",
+        "commit": "str",
+        "table": "str",
         "user": "str",
-        "zooid": ["ZooEntity", ["not_null"]]
+        "zooid": "ZooEntity"
+    },
+    "fieldparams": {
+        "change_id": ["autoincrement"],
+        "column": ["not_null"],
+        "commit": ["not_null"],
+        "table": ["not_null"],
+        "zooid": ["not_null"]
     },
     "compute": {},
     "default": {}

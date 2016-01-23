@@ -3,8 +3,11 @@
     "primary_key": "zooid",
     "indices": [],
     "skip": ["zooid"],
-    "fields" : {
-        "zooid": ["Integer", ["autoincrement"]]
+    "fields": {
+        "zooid": "Integer"
+    },
+    "fieldparams": {
+        "zooid": ["autoincrement"]
     },
     "compute": {},
     "default": {}

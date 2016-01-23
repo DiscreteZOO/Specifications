@@ -3,13 +3,14 @@
     "primary_key": "zooid",
     "indices": ["cvt_index"],
     "skip": ["zooid"],
-    "fields" : {
+    "fields": {
         "cvt_index": "Integer",
         "is_moebius_ladder": "bool",
         "is_prism": "bool",
         "is_spx": "bool",
         "zooid": "ZooGraph"
     },
+    "fieldparams": {},
     "compute": {},
     "default": {
         "ZooGraph": {

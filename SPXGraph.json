@@ -3,11 +3,12 @@
     "primary_key": "zooid",
     "indices": [[["spx_r", "spx_s"], ["unique"]]],
     "skip": ["zooid"],
-    "fields" : {
+    "fields": {
         "spx_r": "Integer",
         "spx_s": "Integer",
         "zooid": "ZooGraph"
     },
+    "fieldparams": {},
     "compute": {},
     "default": {
         "ZooGraph": {

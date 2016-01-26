@@ -41,6 +41,7 @@
         "is_long_hole_free": "bool",
         "is_odd_hole_free": "bool",
         "is_overfull": "bool",
+        "is_partial_cube": "bool",
         "is_perfect": "bool",
         "is_prime": "bool",
         "is_regular": "bool",

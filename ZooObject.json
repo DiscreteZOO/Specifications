@@ -4,20 +4,21 @@
     "indices": [],
     "skip": ["zooid"],
     "fields": {
-        "alias": [
-            "ZooSet",
-            {
+        "alias": {
+            "class": "ZooSet",
+            "params": {
                 "fields": {
                     "alias": "str"
                 }
             },
-            {
+            "indices": ["alias"],
+            "fieldparams": {
                 "alias": ["not_null"]
             }
-        ],
-        "unique_id": [
-            "ZooDict",
-            {
+        },
+        "unique_id": {
+            "class": "ZooDict",
+            "params": {
                 "keys": {
                     "algorithm": "str"
                 },
@@ -25,11 +26,12 @@
                     "unique_id": "str"
                 }
             },
-            {
+            "indices": ["unique_id"],
+            "fieldparams": {
                 "algorithm": ["not_null"],
                 "unique_id": ["not_null"]
             }
-        ],
+        },
         "zooid": "ZooEntity"
     },
     "fieldparams": {},

@@ -72,6 +72,11 @@
         "data": ["not_null"],
         "name": ["unique"]
     },
+    "aliases": {
+        "__len__": "order",
+        "num_edges": "size",
+        "num_verts": "order"
+    },
     "compute": {"ZooGraph": ["diameter", "girth", "has_multiple_edges",
                              "name", "number_of_loops", "order", "size"]},
     "default": {}

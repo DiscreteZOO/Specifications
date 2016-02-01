@@ -9,6 +9,7 @@
     "fieldparams": {
         "zooid": ["autoincrement"]
     },
+    "aliases": {},
     "compute": {},
     "default": {}
 }

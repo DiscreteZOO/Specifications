@@ -12,6 +12,7 @@
     },
     "fieldparams": {},
     "compute": {},
+    "aliases": {},
     "default": {
         "ZooGraph": {
             "average_degree": 3,

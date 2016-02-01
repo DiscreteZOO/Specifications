@@ -18,6 +18,7 @@
         "table": ["not_null"],
         "zooid": ["not_null"]
     },
+    "aliases": {},
     "compute": {},
     "default": {}
 }

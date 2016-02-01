@@ -35,6 +35,7 @@
         "zooid": "ZooEntity"
     },
     "fieldparams": {},
+    "aliases": {},
     "compute": {},
     "default": {}
 }

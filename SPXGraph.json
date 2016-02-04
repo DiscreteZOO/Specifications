@@ -3,6 +3,7 @@
     "primary_key": "zooid",
     "indices": [[["spx_r", "spx_s"], ["unique"]]],
     "skip": ["zooid"],
+    "noupdate": [],
     "fields": {
         "spx_r": "Integer",
         "spx_s": "Integer",

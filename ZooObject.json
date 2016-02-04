@@ -3,6 +3,7 @@
     "primary_key": "zooid",
     "indices": [],
     "skip": ["zooid"],
+    "noupdate": [],
     "fields": {
         "alias": {
             "class": "ZooSet",

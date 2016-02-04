@@ -3,6 +3,7 @@
     "primary_key": "change_id",
     "indices": [[["zooid", "table", "column", "commit"], ["unique"]]],
     "skip": ["change_id", "zooid"],
+    "noupdate": [],
     "fields": {
         "change_id": "Integer",
         "column": "str",

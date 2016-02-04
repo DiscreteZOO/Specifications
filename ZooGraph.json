@@ -3,6 +3,7 @@
     "primary_key": "zooid",
     "indices": ["order", "average_degree"],
     "skip": ["data", "zooid"],
+    "noupdate": ["data", "name"],
     "fields": {
         "average_degree": "Rational",
         "average_distance": "Rational",

@@ -3,6 +3,7 @@
     "primary_key": "zooid",
     "indices": ["cvt_index", "symcubic_index"],
     "skip": ["zooid"],
+    "noupdate": [],
     "fields": {
         "cvt_index": "Integer",
         "is_moebius_ladder": "bool",

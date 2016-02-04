@@ -1,13 +1,14 @@
 {
     "name": "graph_cvt",
     "primary_key": "zooid",
-    "indices": ["cvt_index"],
+    "indices": ["cvt_index", "symcubic_index"],
     "skip": ["zooid"],
     "fields": {
         "cvt_index": "Integer",
         "is_moebius_ladder": "bool",
         "is_prism": "bool",
         "is_spx": "bool",
+        "symcubic_index": "Integer",
         "truncation": "ZooGraph",
         "zooid": "ZooGraph"
     },

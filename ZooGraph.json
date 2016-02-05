@@ -78,7 +78,10 @@
         "num_edges": "size",
         "num_verts": "order"
     },
-    "compute": {"ZooGraph": ["diameter", "girth", "has_multiple_edges",
-                             "name", "number_of_loops", "order", "size"]},
+    "compute": {"ZooGraph": ["average_degree", "connected_components_number",
+                             "diameter", "girth", "has_multiple_edges",
+                             "is_bipartite", "is_eulerian", "is_forest",
+                             "is_tree", "name", "number_of_loops", "order",
+                             "size"]},
     "default": {}
 }

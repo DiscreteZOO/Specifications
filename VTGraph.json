@@ -1,0 +1,20 @@
+{
+    "name": "graph_vt",
+    "primary_key": "zooid",
+    "indices": ["vt_index"],
+    "skip": ["zooid"],
+    "noupdate": [],
+    "fields": {
+        "vt_index": "Integer",
+        "zooid": "ZooGraph"
+    },
+    "fieldparams": {},
+    "compute": {},
+    "aliases": {},
+    "default": {
+        "ZooGraph": {
+            "is_regular": true,
+            "is_vertex_transitive": true
+        }
+    }
+}

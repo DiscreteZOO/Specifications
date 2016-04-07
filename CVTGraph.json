@@ -16,9 +16,13 @@
     "fieldparams": {},
     "compute": {},
     "aliases": {},
+    "condition": {
+        "ZooGraph": {
+            "average_degree": 3
+        }
+    },
     "default": {
         "ZooGraph": {
-            "average_degree": 3,
             "is_eulerian": false,
             "is_forest": false,
             "is_overfull": false,

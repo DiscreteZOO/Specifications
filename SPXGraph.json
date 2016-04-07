@@ -12,11 +12,15 @@
     "fieldparams": {},
     "compute": {},
     "aliases": {},
-    "default": {
+    "condition": {
         "ZooGraph": {
             "average_degree": 3,
+            "is_regular": true
+        }
+    },
+    "default": {
+        "ZooGraph": {
             "is_bipartite": true,
-            "is_regular": true,
             "is_tree": false
         }
     }

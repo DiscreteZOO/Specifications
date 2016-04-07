@@ -11,10 +11,14 @@
     "fieldparams": {},
     "compute": {},
     "aliases": {},
+    "condition": {
+        "ZooGraph": {
+            "is_vertex_transitive": true
+        }
+    },
     "default": {
         "ZooGraph": {
-            "is_regular": true,
-            "is_vertex_transitive": true
+            "is_regular": true
         }
     }
 }

@@ -83,5 +83,6 @@
                              "is_bipartite", "is_eulerian", "is_forest",
                              "is_tree", "name", "number_of_loops", "order",
                              "size"]},
+    "condition": {},
     "default": {}
 }

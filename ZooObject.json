@@ -38,5 +38,6 @@
     "fieldparams": {},
     "aliases": {},
     "compute": {},
+    "condition": {},
     "default": {}
 }

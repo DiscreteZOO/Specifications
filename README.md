@@ -25,4 +25,5 @@ It contains an object with the following fields:
 * `fieldparams`: an object containing a list of parameters (`"autoincrement"`, `"not_null"`, `"unique"`) for each property (empty lists need not be specified);
 * `aliases`: an object with aliases for properties,
 * `compute`: an object containing a list of properties for each superclass which are computed upon creation of a new *DiscreteZOO* object (empty lists need not be specified);
+* `condition`: an object containing an object with required values of properties for each superclass (empty objects need not be specified).
 * `default`: an object containing an object with default values of properties for each superclass (empty objects need not be specified).

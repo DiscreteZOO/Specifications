@@ -15,6 +15,7 @@
     "condition": {
         "ZooGraph": {
             "average_degree": 3,
+            "connected_components_number": 1,
             "is_regular": true
         }
     },

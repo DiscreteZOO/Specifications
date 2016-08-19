@@ -16,12 +16,12 @@
         "ZooGraph": {
             "average_degree": 3,
             "connected_components_number": 1,
+            "is_bipartite": true,
             "is_regular": true
         }
     },
     "default": {
         "ZooGraph": {
-            "is_bipartite": true,
             "is_tree": false
         }
     }
